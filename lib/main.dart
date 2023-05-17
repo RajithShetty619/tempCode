@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:linked_scroll_controller/linked_scroll_controller.dart';
 import 'package:tempcode/riverpod.dart';
+import 'package:tempcode/svg_animation.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 
 void main() {
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(),
+      home: const RotatingAnimation(),
     );
   }
 }
